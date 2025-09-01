@@ -1,26 +1,10 @@
-# p5play-template
-
-Visit <https://p5play.org> to learn how to use p5play.
-
-This folder contains a basic p5play + [q5.js](https://q5js.org) template to help get you started on your own p5play project! 😃🎮
-
-## Contents
-
-`favicon.png` - the icon for the web page, which appears on the browser tab  
-`index.html` - the webpage that runs your sketch.js code  
-`jsconfig.json` - a file that enables auto-complete and hover documentation for p5play in code editors like Visual Studio Code  
-`sketch.js` - write your code in the sketch file
-
-## Getting Started
-
-Use the [p5play VSCode](https://marketplace.visualstudio.com/items?itemName=quinton-ashley.p5play-vscode) or [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for Visual Studio Code to run your project.
-
-## Offline Use
-
-For offline use, install [bun](https://bun.sh/) or [npm](https://nodejs.org). Then in the file menu hover over "Terminal" and select "New Terminal". In your p5play project folder run `bun i` to install the q5 and p5play packages.
-
-Note that to participate in p5play game jams your project must use the latest version of p5play. Use `bun up` or `npm up` to update packages to the latest versions.
-
-## Read me, Read me!
-
-This message will now self-destruct in 5... 4... just kidding! But you can delete the contents of this file and write a README.md file that describes your own project.
+# Bitsy - Platformer
+This project was going to be completely different. It was going to have way more custom sprites than they are currently (which is only bitsy herself), but, for some reason, when I was trying to make the tiles for the ground and such, it didn't want to work! Motivation deflated, I had to come up with something else, and this is the end result.
+The game itself is very short. Bitsy lost her ball, so you have to run around a lil bit to find it. I guess this can work more as a tech demo, since not much else is happening.
+Bitsy is a custom made sprite sheet while the text, platforms, and the ball are all default objects from p5play itself.
+Making a jump that works was surprisingly difficult. I couldn't really come up with a solution to prevent a double jump, so I had to look up a tutorial of some kind; turns out, all you have to do is make a ground sensor that decides whether or not the player character can jump again. Easy solution in retrospect, but once again, game coding and game design in general is something I'm new at, despite the fact that videogames are something I enjoy greatly.
+The platforms are a group, so I didn't have to make invididual sprites for all the ones that you see, I just had to determine their x and y coordinates and their size.
+The game has a very small canvas size because bitsy herself is a 16x16 sprite. Very small if I went bigger.
+I guess above all else, this project just made me realize that coding a game can both be fun and a real chore. But that's coding in general.
+Anyways, hopefully my next project can be more planned out than this one. And done in a much shorter timeframe.
+According to hack a time, this took 8 hours and 6 minutes.

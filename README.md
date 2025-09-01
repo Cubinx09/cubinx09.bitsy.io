@@ -4,7 +4,7 @@ This project was going to be completely different. It was going to have way more
 The game itself is very short. Bitsy lost her ball, so you have to run around a lil bit to find it. I guess this can work more as a tech demo, since not much else is happening.
 Bitsy is a custom made sprite sheet while the text, platforms, and the ball are all default objects from p5play itself.
 
-Making a jump that works was surprisingly difficult. I couldn't really come up with a solution to prevent a double jump, so I had to look up a tutorial of some kind; turns out, all you have to do is make a ground sensor that decides whether or not the player character can jump again. Easy solution in retrospect, but once again, game coding and game design in general is something I'm new at, despite the fact that videogames are something I enjoy greatly.
+Making a jump that works was surprisingly difficult. I couldn't really come up with a solution to prevent a double jump, so I had to look up a tutorial of some kind; turns out, all you have to do is make a ground sensor that decides whether or not the player character can jump again. Easy solution in retrospect, but game coding and game design in general is something I'm new at, despite the fact that videogames are something I enjoy greatly.
 
 The platforms are a group, so I didn't have to make invididual sprites for all the ones that you see, I just had to determine their x and y coordinates and their size.
 The game has a very small canvas size because bitsy herself is a 16x16 sprite. Very small if I went bigger.
